@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  line-height: 1.4;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+time {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000000;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Helvetica, "sans-serif";
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #000000;
+}
+
+.container {
+  max-width: 130rem;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0 auto;
+}
+
+.doctors__wrapper {
+  display: flex;
+}
+.doctors__wrapper .branding {
+  display: flex;
+  right: 0;
+  position: absolute;
+  max-width: 20rem;
+  max-height: auto;
+  margin: 0.8rem;
+}
+.doctors__wrapper .branding img {
+  max-width: 12rem;
+  max-height: 5rem;
+}
+.doctors__name {
+  margin-top: 1rem;
+  font-weight: 600;
+  background: linear-gradient(60deg, rgb(100, 179, 243) 0%, rgb(69, 233, 255) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 6rem;
+}
+.doctors__nav {
+  background: linear-gradient(60deg, rgb(0, 163, 204) 0%, rgb(26, 29, 218) 100%);
+  width: 30rem;
+  height: 100vh;
+  left: 0;
+}
+.doctors__nav .burger__btn {
+  background: rgb(0, 50, 143);
+  padding: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.doctors__nav .burger__btn span {
+  transition: 0.5s ease;
+  width: 2.2rem;
+  height: 0.3rem;
+  background-color: #ffffff;
+  border-radius: 5rem;
+  display: block;
+}
+.doctors__nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.doctors__nav ul li {
+  width: 100%;
+  padding: 1rem;
+}
+.doctors__nav ul li:hover {
+  background: rgb(1, 2, 63);
+}
+.doctors__nav ul li a {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+.doctors__nav ul span:nth-of-type(1) {
+  height: 0.1rem;
+  width: 100%;
+  background: rgb(0, 45, 71);
+}
+.doctors__nav ul span:nth-of-type(2) {
+  height: 0.1rem;
+  width: 100%;
+  background: rgb(0, 45, 71);
+}
+.doctors__nav ul span:nth-of-type(3) {
+  height: 55rem;
+  width: 30rem;
+  border-bottom: 2px solid rgb(0, 103, 163);
+}
+.doctors__nav ul .reg__btn {
+  margin-top: 2rem;
+  display: flex;
+  padding: unset;
+  align-self: center;
+  width: unset;
+  padding-bottom: 2rem;
+}
+.doctors__nav ul .reg__btn:hover {
+  background: unset;
+}
+.doctors__nav ul .reg__btn:hover a {
+  color: rgb(1, 2, 63);
+}
+.doctors__nav ul .log__btn {
+  padding: unset;
+  border-radius: 25rem;
+  background-color: rgb(35, 196, 196);
+  width: 22rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  transition: 0.5s ease-in-out;
+}
+.doctors__nav ul .log__btn:hover {
+  background: rgb(35, 196, 196);
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}/*# sourceMappingURL=main.css.map */
